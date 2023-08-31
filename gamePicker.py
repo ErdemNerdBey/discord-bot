@@ -1,5 +1,6 @@
 import discord
 from discord import Intents
+from ww_bestand import bot_token
 
 intents = Intents.default()
 intents.message_content = True
@@ -87,4 +88,4 @@ async def on_message(message: discord.Message):
 
 
 # EXECUTES THE BOT WITH THE SPECIFIED TOKEN. TOKEN HAS BEEN REMOVED AND USED JUST AS AN EXAMPLE.
-bot.run("MTE0NjAyMTc4NTUyODE3MjY1NA.GHVCni.zL8sSgJq9ZQLjla2o340UGJWMjt39SZTVNLY_0")
+bot.run("token")
